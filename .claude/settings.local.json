@@ -4,7 +4,13 @@
       "Bash(git add:*)",
       "Bash(git commit -m \"$\\(cat <<''EOF''\nRefactor e-commerce EDA with modular architecture and configurable analysis\n\n- Created data_loader.py: Reusable data loading and preparation pipeline with support for flexible date range filtering\n- Created business_metrics.py: 24+ documented metric calculation functions organized by analysis category\n- Refactored EDA_Refactored.ipynb: Well-structured notebook with clear sections, comprehensive documentation, and configurable analysis period\n- Enhanced visualization quality with descriptive titles, proper axis labels, and professional formatting\n- Added REFACTORING_README.md with complete documentation, usage examples, and extension guide\n- Implemented configurable analysis framework allowing any date range without code changes\n- Fixed SettingWithCopyWarning issues and improved code quality with DRY principles\n- Added data dictionary and business metrics explanations for maintainability\n- Maintained all original analyses while improving structure, documentation, and reusability\n\nCo-Authored-By: Claude Haiku 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
       "Bash(gh repo create:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git push origin master)",
+      "Bash(python -m py_compile:*)",
+      "Bash(timeout 5 streamlit run:*)",
+      "Bash(cd /Users/zerkalenkov/Documents/Projects/deeplearning/Claude\\\\ Code/e-commerce-data-analysis && streamlit run:*)",
+      "mcp__chrome-devtools__new_page",
+      "Bash(curl:*)"
     ]
   }
 }
